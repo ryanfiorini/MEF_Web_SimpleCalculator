@@ -54,6 +54,7 @@ namespace MEF_Web_SimpleCalculator
             answer.InnerHtml += "4+5=" + this.calculator.Calculate("4+5") + "<br />";
             answer.InnerHtml += "5-4=" + this.calculator.Calculate("5-4") + "<br />";
             answer.InnerHtml += "100%22=" + this.calculator.Calculate("100%22") + "<br />";
+            answer.InnerHtml += "100*4=" + this.calculator.Calculate("100*4") + "<br />";
         }
     }
 }
